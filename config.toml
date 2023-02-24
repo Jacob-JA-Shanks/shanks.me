@@ -50,7 +50,7 @@ disqusShortname = "jacobshanks"
   name = "LinkedIn"
   icon = "fa fa-linkedin fa-2x"
   weight = 3
-  url = "www.linkedin.com/in/jacob-shanks"
+  url = "https://www.linkedin.com/in/jacob-shanks"
 
 # Menu links
 [[menu.main]]
