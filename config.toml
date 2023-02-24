@@ -1,0 +1,59 @@
+baseurl = "https://shanks.me"
+title = "shanks"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "jacobshanks"
+
+[params]
+  author = "Jacob JA Shanks"
+  info = "Software Engineer"
+  description = "Jacob Shanks' personal website"
+  keywords = "blog,developer,personal"
+  #avatarurl = "images/avatar.jpeg"
+  gravatar = "jacob@shanks.me"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2017
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/Jacob-JA-Shanks/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 3
+  url = "www.linkedin.com/in/jacob-shanks"
+
+# Menu links
+[[menu.main]]
+  name = "Home"
+  weight = 1
+  url  = "/"
