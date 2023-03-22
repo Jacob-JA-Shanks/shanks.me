@@ -1,5 +1,5 @@
 baseurl = "https://shanks.me"
-title = "Jacob JA Shanks"
+title = "Jacob Shanks"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -13,7 +13,7 @@ pygmentscodefencesguesssyntax = true
 disqusShortname = "jacobshanks"
 
 [params]
-  author = "Jacob JA Shanks"
+  author = "Jacob Shanks"
   info = "Software Engineer"
   description = "Jacob Shanks' personal website"
   keywords = "blog,developer,personal"
